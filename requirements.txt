@@ -1,0 +1,53 @@
+#==============================
+# Backend requirements
+#==============================
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Pydantic & Settings
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Environment
+python-dotenv==1.0.0
+
+# YAML
+pyYAML==6.0.1
+
+# LLM Clients
+openai==1.10.0
+google-generativeai==0.3.2
+
+# PDF Processing
+pypdf==3.17.4
+
+# Vector Store
+chromadb==0.4.22
+faiss-cpu
+
+# Embeddings & NLP
+sentence-transformers==2.3.1
+tiktoken==0.5.2
+
+# Utilities
+requests==2.31.0
+httpx==0.26.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# Development
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+
+#==============================
+# Frontend requirements
+#==============================
+streamlit==1.30.0
+requests==2.31.0
+python-dotenv==1.0.0
