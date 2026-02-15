@@ -25,3 +25,7 @@ CACHE_DIR = f"{DATA_DIR}/cache"
 EMBEDDINGS_DIR = f"{DATA_DIR}/embeddings"
 VECTOR_DB_DIR = f"{DATA_DIR}/vector_db"
 LOGS_DIR = "logs"
+
+#FAISS specific
+FAISS_INDEX_TYPE = "IndexFlatL2" #Flat index for accuracy
+FAISS_METRIC = "L2" # L2 distance (Euclidean)
