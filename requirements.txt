@@ -25,7 +25,8 @@ pypdf==3.17.4
 
 # Vector Store
 chromadb==0.4.22
-faiss-cpu
+faiss-cpu==1.7.4
+numpy==1.24.3
 
 # Embeddings & NLP
 sentence-transformers==2.3.1
